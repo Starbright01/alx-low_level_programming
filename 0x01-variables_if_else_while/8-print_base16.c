@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
 /**
  * main - main block
@@ -9,14 +8,16 @@
  */
 int main(void)
 {
-	char c = 'z';
+	char ch;
 
-	while (c >= 'a')
+	for (ch = '0'; ch <= '9'; ch++)
 	{
-		putchar(c);
-		c--;
+		putchar(ch);
 	}
-
-	putchar('\n');
+	for (ch = 'a'; ch <= 'i'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar(ch);
 	return (0);
 }
