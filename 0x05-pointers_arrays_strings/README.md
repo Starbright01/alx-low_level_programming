@@ -1,1 +1,1 @@
-this is my array project
+pointers array and strings
