@@ -1,10 +1,9 @@
-#include "kasiye.h"
+#include "main.h"
 
 /**
- * reset_to_98n - take a pointer to an int as parameter and updates
- * the value it points to is 98
- * @n: point to an int
- * Return: Nothing
+ * reset_to_98n - update the value of n to 98
+ * @n: input
+ * Return: n
  */
 void reset_to_98(int *n);
 {
